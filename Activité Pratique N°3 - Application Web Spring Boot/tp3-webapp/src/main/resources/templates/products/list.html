@@ -9,15 +9,15 @@
 <body>
 <div layout:fragment="content">
 
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2><i class="bi bi-box-seam"></i> Liste des Produits</h2>
+    <div class="d-flex justify-content-between align-items-end mb-4">
+        <div><div class="eyebrow mb-2">Catalogue</div><h2 class="hero-title mb-1">Tous les produits</h2><p class="text-muted mb-0">Pilotez votre inventaire en un coup d'oeil.</p></div>
         <a sec:authorize="hasRole('ADMIN')" th:href="@{/products/new}" class="btn btn-success">
             <i class="bi bi-plus-lg"></i> Nouveau Produit
         </a>
     </div>
 
     <!-- Barre de recherche -->
-    <form th:action="@{/products}" method="get" class="row g-2 mb-4">
+    <form th:action="@{/products}" method="get" class="row g-2 mb-4 soft-card search-panel">
         <div class="col-md-8">
             <input type="text" name="keyword" th:value="${keyword}"
                    class="form-control" placeholder="Rechercher un produit...">
@@ -35,9 +35,9 @@
     </form>
 
     <!-- Tableau des produits -->
-    <div class="table-responsive">
-        <table class="table table-striped table-hover align-middle">
-            <thead class="table-dark">
+    <div class="table-responsive soft-card table-card">
+        <table class="table table-hover align-middle">
+            <thead>
                 <tr>
                     <th>#</th>
                     <th>Nom</th>
@@ -52,10 +52,10 @@
                 </tr>
                 <tr th:each="p : ${products}">
                     <td th:text="${p.id}"></td>
-                    <td th:text="${p.name}"></td>
+                    <td class="product-name" th:text="${p.name}"></td>
                     <td th:text="${#numbers.formatDecimal(p.price, 1, 2)} + ' MAD'"></td>
                     <td>
-                        <span th:class="${p.quantity < 5} ? 'badge bg-danger' : 'badge bg-success'"
+                        <span th:class="${p.quantity < 5} ? 'stock-pill stock-low' : 'stock-pill stock-ok'"
                               th:text="${p.quantity}"></span>
                     </td>
                     <td sec:authorize="hasRole('ADMIN')">

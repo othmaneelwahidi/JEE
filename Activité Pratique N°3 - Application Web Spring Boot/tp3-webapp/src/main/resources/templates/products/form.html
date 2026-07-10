@@ -9,15 +9,14 @@
 <div layout:fragment="content">
 
     <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">
+        <div class="col-md-8">
+            <div class="soft-card form-card">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <div class="icon-bubble">
                         <i th:class="${product.id == null} ? 'bi bi-plus-circle' : 'bi bi-pencil-square'"></i>
-                        <span th:text="${product.id == null} ? 'Nouveau Produit' : 'Modifier le Produit'"></span>
-                    </h4>
+                    </div><div><div class="eyebrow">Catalogue</div><h4 class="mb-0" th:text="${product.id == null} ? 'Nouveau produit' : 'Modifier le produit'"></h4></div>
                 </div>
-                <div class="card-body">
+                <div>
                     <form th:action="@{/products/save}" th:object="${product}" method="post" novalidate>
                         <!-- Champ caché pour l'id (modification) -->
                         <input type="hidden" th:field="*{id}">

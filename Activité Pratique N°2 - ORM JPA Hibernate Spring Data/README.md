@@ -48,7 +48,9 @@ les objets du domaine.
 
 Cette activite est centree sur la persistance et ne fournit pas d'interface
 graphique. Les donnees peuvent etre verifiees dans les journaux Spring Boot, la
-console H2 ou avec un client SQL. Les captures pertinentes seraient donc celles
-des tables generees et des requetes executees.
+console H2 ou avec un client SQL. La planche suivante presente les principales
+entites et leurs responsabilites.
+
+![Modele de persistance JPA](screenshots/modele-jpa.png)
 
 [Retour au README principal](../README.md)

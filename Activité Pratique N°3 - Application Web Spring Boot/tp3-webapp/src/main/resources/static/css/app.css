@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap');
+:root{--ink:#172033;--muted:#718096;--primary:#635bff;--primary2:#8b5cf6;--surface:#fff;--line:#e8eaf2;--bg:#f5f7fb}
+*{box-sizing:border-box} body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+h1,h2,h3,h4,.navbar-brand{font-family:'Manrope',sans-serif}.app-nav{background:#12182b!important;padding:.85rem 0;box-shadow:0 10px 30px rgba(20,24,45,.12)}
+.brand-mark{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--primary),#9f7aea);margin-right:.55rem}
+.nav-link{border-radius:10px;padding:.55rem .85rem!important}.nav-link:hover{background:rgba(255,255,255,.08)}
+.page-shell{padding-top:2.2rem;padding-bottom:4rem}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:var(--primary)}
+.hero-title{font-size:clamp(1.8rem,4vw,2.55rem);font-weight:800}.soft-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 14px 35px rgba(22,32,51,.06)}
+.search-panel{padding:1rem}.form-control,.input-group-text{border-color:var(--line);padding:.78rem 1rem}.form-control:focus{border-color:#a9a4ff;box-shadow:0 0 0 .22rem rgba(99,91,255,.12)}
+.btn{border-radius:11px;font-weight:600;padding:.7rem 1rem}.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary2));border:0}.btn-primary:hover{filter:brightness(.95)}
+.btn-success{background:var(--primary);border-color:var(--primary)}.table-card{overflow:hidden}.table{margin:0}.table thead th{background:#f8f9fc;color:#75809a;border:0;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;padding:1rem 1.2rem}.table tbody td{padding:1rem 1.2rem;border-color:#f0f1f6}.product-name{font-weight:700}.stock-pill{display:inline-flex;padding:.35rem .65rem;border-radius:999px;font-weight:700;font-size:.78rem}.stock-ok{color:#087a55;background:#e5f8f1}.stock-low{color:#c2415b;background:#fff0f3}
+.form-card{max-width:680px;margin:auto;padding:2rem}.icon-bubble{display:grid;place-items:center;width:52px;height:52px;border-radius:16px;color:#fff;background:linear-gradient(135deg,var(--primary),var(--primary2));font-size:1.35rem}
+.login-page{background:radial-gradient(circle at 10% 20%,#7c6cff 0,transparent 28%),radial-gradient(circle at 90% 80%,#22d3ee 0,transparent 25%),#12182b}.login-card{width:min(92%,440px);border:1px solid rgba(255,255,255,.12);border-radius:26px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.login-brand{background:#181f35;color:#fff;padding:2rem}.login-body{background:#fff;padding:2rem}.login-logo{display:grid;place-items:center;width:56px;height:56px;margin:0 auto 1rem;border-radius:18px;background:linear-gradient(135deg,var(--primary),var(--primary2));font-size:1.5rem}

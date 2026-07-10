@@ -1,7 +1,10 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark px-3">
-  <div class="navbar-nav">
-    <a class="btn btn-outline-light btn-sm mx-1" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
-    <a class="btn btn-outline-light btn-sm mx-1" routerLink="/products" routerLinkActive="active">Products</a>
+<nav class="topbar">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a class="brand" routerLink="/"><span class="brand-icon"><i class="bi bi-grid-1x2-fill"></i></span>NovaStock</a>
+    <div class="d-flex gap-2">
+      <a class="nav-pill" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+      <a class="nav-pill" routerLink="/products" routerLinkActive="active">Produits</a>
+    </div>
   </div>
 </nav>
 

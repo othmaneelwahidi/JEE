@@ -41,7 +41,8 @@ configuration XML et detection par annotations.
 Cette activite ne possede pas d'interface Web. Les resultats apparaissent dans
 la console de l'IDE : chaque presentation construit le meme service metier en
 utilisant une strategie d'injection differente. Pour documenter l'execution,
-une capture de la console peut etre placee plus tard dans un dossier
-`screenshots` sans modifier le code.
+la vue suivante resume les quatre strategies et les relations entre couches.
+
+![Architecture de l'injection des dependances](screenshots/architecture-ioc.png)
 
 [Retour au README principal](../README.md)
