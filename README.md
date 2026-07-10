@@ -1,5 +1,10 @@
 # JEE - Architecture et systemes distribues
 
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F)
+![Angular](https://img.shields.io/badge/Angular-19-DD0031)
+![License](https://img.shields.io/badge/usage-academic-blue)
+
 Ce depot regroupe les activites pratiques du module Architecture JEE et
 Systemes Distribues : injection de dependances, JPA, Spring Boot, Angular et
 securite d'une application bancaire.
@@ -46,3 +51,17 @@ Les applications Maven se lancent depuis leur dossier avec
 3. MVC, authentification et autorisations.
 4. Frontend Angular et backend REST.
 5. Application bancaire securisee.
+
+## Apercu des interfaces
+
+### Application Web Spring Boot
+
+| Connexion | Liste des produits |
+| --- | --- |
+| ![Connexion](./Activit%C3%A9%20Pratique%20N%C2%B03%20-%20Application%20Web%20Spring%20Boot/screenshots/01-login.png) | ![Produits](./Activit%C3%A9%20Pratique%20N%C2%B03%20-%20Application%20Web%20Spring%20Boot/screenshots/02-liste-produits-admin.png) |
+
+### Application Angular
+
+| Accueil | Gestion des produits |
+| --- | --- |
+| ![Accueil Angular](./Activit%C3%A9%20Pratique%20N%C2%B04%20-%20Angular%20Framework/screenshots/1-home.png) | ![Produits Angular](./Activit%C3%A9%20Pratique%20N%C2%B04%20-%20Angular%20Framework/screenshots/2-products.png) |

@@ -43,3 +43,12 @@ reel dans ce fichier.
 
 Spring initialise JPA et permet d'enregistrer, consulter, modifier et supprimer
 les objets du domaine.
+
+## Demonstration attendue
+
+Cette activite est centree sur la persistance et ne fournit pas d'interface
+graphique. Les donnees peuvent etre verifiees dans les journaux Spring Boot, la
+console H2 ou avec un client SQL. Les captures pertinentes seraient donc celles
+des tables generees et des requetes executees.
+
+[Retour au README principal](../README.md)

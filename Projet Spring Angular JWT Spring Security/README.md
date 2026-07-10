@@ -54,3 +54,18 @@ Telegram -> Bot -> Spring AI / RAG -> documentation bancaire
 Ne versionnez jamais mots de passe, tokens ou cles API. Utilisez des variables
 d'environnement, encodez les mots de passe, limitez la duree des JWT, validez
 les entrees et restreignez les endpoints selon les roles.
+
+## Interfaces a documenter
+
+Le dossier fournit actuellement des extraits de composants et de services,
+mais pas encore une application Angular complete directement executable. Les
+captures seront ajoutees lorsque les ecrans suivants seront integres :
+
+- authentification ;
+- tableau de bord bancaire ;
+- liste et formulaire des clients ;
+- details d'un compte et historique des operations ;
+- formulaire de debit, credit et transfert ;
+- interface du chatbot.
+
+[Retour au README principal](../README.md)

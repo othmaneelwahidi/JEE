@@ -42,3 +42,27 @@ mvn clean spring-boot:run
 
 Ouvrez `http://localhost:8080`. Le dossier `screenshots` documente la connexion,
 le CRUD, la validation, la recherche et les vues par role.
+
+## Captures d'ecran
+
+### Authentification
+
+![Page de connexion](screenshots/01-login.png)
+
+### Espace administrateur
+
+| Liste des produits | Ajout d'un produit |
+| --- | --- |
+| ![Liste administrateur](screenshots/02-liste-produits-admin.png) | ![Formulaire d'ajout](screenshots/03-formulaire-ajout.png) |
+
+| Validation du formulaire | Modification |
+| --- | --- |
+| ![Erreurs de validation](screenshots/04-formulaire-erreurs.png) | ![Modification](screenshots/05-formulaire-edit.png) |
+
+### Recherche et espace utilisateur
+
+| Recherche | Vue utilisateur |
+| --- | --- |
+| ![Recherche](screenshots/06-recherche.png) | ![Liste utilisateur](screenshots/07-liste-produits-user.png) |
+
+[Retour au README principal](../README.md)

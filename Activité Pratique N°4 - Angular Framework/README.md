@@ -48,3 +48,25 @@ mvn test
 
 Le dossier `screenshots` illustre l'accueil, les produits et les requetes GET,
 PUT et DELETE.
+
+## Captures d'ecran
+
+### Interface Angular
+
+| Page d'accueil | Liste des produits |
+| --- | --- |
+| ![Accueil](screenshots/1-home.png) | ![Produits](screenshots/2-products.png) |
+
+### Verification de l'API REST
+
+| Requete GET | Requete DELETE |
+| --- | --- |
+| ![GET](screenshots/3-GET.png) | ![DELETE](screenshots/4-DELETE.png) |
+
+| Apres suppression | Requete PUT |
+| --- | --- |
+| ![GET apres DELETE](screenshots/5-GET-AFTER-DELETE.png) | ![PUT](screenshots/6-PUT.png) |
+
+![GET apres modification](screenshots/7-GET-AFTER-PUT.png)
+
+[Retour au README principal](../README.md)
